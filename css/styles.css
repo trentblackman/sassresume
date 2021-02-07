@@ -1,0 +1,107 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+
+p, span, ul, li, h1, h2, h3 {
+  font-family: "Baloo 2", cursive;
+}
+
+.maincontainer .container .container2 .column2, .maincontainer .container .container2 .column1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+.maincontainer {
+  background: linear-gradient(to right, #305252 0%, #305252 50%, #373E40 50%, #373E40 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1300px;
+}
+.maincontainer .container {
+  background-color: white;
+  background: linear-gradient(to bottom right, #d8f3dc, #95d5b2, #40916c);
+  box-shadow: 7px 7px 7px 7px #081c15;
+  width: 85%;
+  height: 1100px;
+}
+.maincontainer .container .head {
+  background-image: url(../images/leather-green-texture.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: #dadfea;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px 20px 0px;
+}
+.maincontainer .container .head .namecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.maincontainer .container .head .name {
+  font-size: 4em;
+  font-family: "Baloo 2", cursive;
+  font-weight: 800;
+  color: #d8f3dc;
+}
+.maincontainer .container .head .job {
+  color: #d8f3dc;
+  font-size: 1.25em;
+  font-family: "Baloo 2", cursive;
+  font-weight: 500;
+}
+.maincontainer .container .head .picture {
+  margin-right: 90px;
+}
+.maincontainer .container .head .picture img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.maincontainer .container .container2 {
+  margin-top: 25px;
+  border: 1px black;
+  display: flex;
+}
+.maincontainer .container .container2 .break {
+  width: 33%;
+  border-bottom: solid 3px #305252;
+}
+.maincontainer .container .container2 .column1 {
+  width: 36%;
+}
+.maincontainer .container .container2 .column1 .phone {
+  margin-left: 1px;
+}
+.maincontainer .container .container2 .column1 .phone span {
+  padding-left: 17px;
+}
+.maincontainer .container .container2 .column1 .email span {
+  padding-left: 9px;
+}
+.maincontainer .container .container2 .column1 .linkedin span {
+  padding-left: 10px;
+}
+.maincontainer .container .container2 .column1 .github span {
+  padding-left: 10px;
+}
+.maincontainer .container .container2 .column2 {
+  width: 72%;
+  border-left: 1px solid #373E40;
+  margin-right: 40px;
+}
+.maincontainer .container .container2 .column2 .float {
+  float: right;
+}
+
+/*# sourceMappingURL=styles.css.map */
